@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*头部开始*/
+header div.tru{
+	height: 1rem;
+	width: 10rem;
+	background: #FE5500 url(../img/logo.png) no-repeat 0.12rem;
+	background-size: 0.72rem 0.546rem;
+	position: relative;
+}
+header div.tru a{
+	width: 8.813rem;
+	height: 0.666rem;
+	background: #B52700;
+	display: block;
+	position: absolute;
+	top:0.16rem;
+	right: 0.2rem;
+	border-radius: 0.12rem;
+	text-align: center;
+	line-height: 0.666rem;
+	color: #FCFCFC;
+	font-size: 13px;
+}
+[data-dpr="2"] header div.tru a {
+	font-size: 26px;
+}
+[data-dpr="3"] header div.tru a {
+	font-size: 39px;
+}
+/*头部结束*/
+
+/*轮播图开始*/
+div.flash{
+	width: 10rem;
+	height: 3.12rem;
+	background: blue;
+}
+div.flash .swiper-container img{
+	width: 10rem;
+	height: 3.12rem;
+}
+/*轮播图结束*/

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<!--引入flexible插件-->
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+		<!--引入taobao.css-->
+		<link rel="stylesheet" type="text/css" href="css/taobao.css"/>
+		
+	</head>
+	<body>
+		<!--header部分开始-->
+		<header>
+			<div class="tru">
+				<a href="">
+					寻找宝贝店铺
+				</a>
+			</div>
+		</header>
+		<!--header部分结束-->
+		<!--轮播图开始-->
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<div class="flash">
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="img/lbt01.jpg"/></div>
+			        <div class="swiper-slide"><img src="img/lbt02.jpg"/></div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<script src="js/swiper.min.js"></script>
+		<script>        
+		    var mySwiper = new Swiper ('.swiper-container', {
+		    loop: true,
+		    autoplay:true,
+		    
+		    // 如果需要分页器
+		    pagination: {
+		      el: '.swiper-pagination',
+		    }
+		   
+		  })        
+		  </script>
+		<!--轮播图结束-->
+	</body>
+</html>
